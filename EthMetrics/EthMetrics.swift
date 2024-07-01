@@ -25,10 +25,7 @@ struct Provider: AppIntentTimelineProvider {
     
     func timeline(for configuration: ConfigurationAppIntent, in context: Context) async -> Timeline<SimpleEntry> {
         var entries: [SimpleEntry] = []
-        print("reloaded")
         let sharedData: [Point] = loadCustomDataArray() ?? []
-        
-        print("SHARED DATA \(sharedData)")
         
         // Generate a timeline consisting of five entries an hour apart, starting from the current date.
         let currentDate = Date()

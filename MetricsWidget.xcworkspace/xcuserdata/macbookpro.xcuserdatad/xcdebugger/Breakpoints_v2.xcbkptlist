@@ -77,57 +77,10 @@
             filePath = "EthMetrics/EthMetrics.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "34"
-            endingLineNumber = "34"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
             landmarkName = "timeline(for:in:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "9B01EB35-7FFB-4CF0-9731-AFA2A3DAC661 - 4a7e70fef10a8e88"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(1) suspend resume partial function for EthMetricsExtension.Provider.timeline(for: EthMetricsExtension.ConfigurationAppIntent, in: WidgetKit.TimelineProviderContext) async -&gt; WidgetKit.Timeline&lt;EthMetricsExtension.SimpleEntry&gt;"
-                  moduleName = "EthMetricsExtension"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/macbookpro/Documents/Development/MetricsWidget/EthMetrics/EthMetrics.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "33"
-                  endingLineNumber = "33"
-                  offsetFromSymbolStart = "964">
-               </Location>
-               <Location
-                  uuid = "9B01EB35-7FFB-4CF0-9731-AFA2A3DAC661 - 4a7e70fef10a8e88"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(1) suspend resume partial function for EthMetricsExtension.Provider.timeline(for: EthMetricsExtension.ConfigurationAppIntent, in: WidgetKit.TimelineProviderContext) async -&gt; WidgetKit.Timeline&lt;EthMetricsExtension.SimpleEntry&gt;"
-                  moduleName = "EthMetricsExtension"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/macbookpro/Documents/Development/MetricsWidget/EthMetrics/EthMetrics.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "33"
-                  endingLineNumber = "33"
-                  offsetFromSymbolStart = "864">
-               </Location>
-               <Location
-                  uuid = "9B01EB35-7FFB-4CF0-9731-AFA2A3DAC661 - 4a7e70fef10a8f4a"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(1) suspend resume partial function for EthMetricsExtension.Provider.timeline(for: EthMetricsExtension.ConfigurationAppIntent, in: WidgetKit.TimelineProviderContext) async -&gt; WidgetKit.Timeline&lt;EthMetricsExtension.SimpleEntry&gt;"
-                  moduleName = "EthMetricsExtension"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/macbookpro/Documents/Development/MetricsWidget/EthMetrics/EthMetrics.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "35"
-                  endingLineNumber = "35"
-                  offsetFromSymbolStart = "1280">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -140,57 +93,10 @@
             filePath = "EthMetrics/EthMetrics.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "29"
-            endingLineNumber = "29"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
             landmarkName = "timeline(for:in:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "566452A7-D0E0-4BCB-994E-8B26ECA609C4 - 4a7e70fef10a8e0c"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(1) suspend resume partial function for EthMetricsExtension.Provider.timeline(for: EthMetricsExtension.ConfigurationAppIntent, in: WidgetKit.TimelineProviderContext) async -&gt; WidgetKit.Timeline&lt;EthMetricsExtension.SimpleEntry&gt;"
-                  moduleName = "EthMetricsExtension"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/macbookpro/Documents/Development/MetricsWidget/EthMetrics/EthMetrics.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "29"
-                  endingLineNumber = "29"
-                  offsetFromSymbolStart = "436">
-               </Location>
-               <Location
-                  uuid = "566452A7-D0E0-4BCB-994E-8B26ECA609C4 - 4a7e70fef10a8e0c"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(1) suspend resume partial function for EthMetricsExtension.Provider.timeline(for: EthMetricsExtension.ConfigurationAppIntent, in: WidgetKit.TimelineProviderContext) async -&gt; WidgetKit.Timeline&lt;EthMetricsExtension.SimpleEntry&gt;"
-                  moduleName = "EthMetricsExtension"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/macbookpro/Documents/Development/MetricsWidget/EthMetrics/EthMetrics.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "29"
-                  endingLineNumber = "29"
-                  offsetFromSymbolStart = "432">
-               </Location>
-               <Location
-                  uuid = "566452A7-D0E0-4BCB-994E-8B26ECA609C4 - 4a7e70fef10a8e0c"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(1) suspend resume partial function for EthMetricsExtension.Provider.timeline(for: EthMetricsExtension.ConfigurationAppIntent, in: WidgetKit.TimelineProviderContext) async -&gt; WidgetKit.Timeline&lt;EthMetricsExtension.SimpleEntry&gt;"
-                  moduleName = "EthMetricsExtension"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/macbookpro/Documents/Development/MetricsWidget/EthMetrics/EthMetrics.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "29"
-                  endingLineNumber = "29"
-                  offsetFromSymbolStart = "460">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -203,72 +109,10 @@
             filePath = "MetricsWidget/Home/HomeViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "65"
-            endingLineNumber = "65"
+            startingLineNumber = "100"
+            endingLineNumber = "100"
             landmarkName = "updateWidgetData(with:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "F3D66667-89C5-4A25-82B8-9D3063988F29 - 5fd6946ce175dc25"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "MetricsWidget.HomeViewModel.updateWidgetData(with: Swift.String) -&gt; ()"
-                  moduleName = "MetricsWidget"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/macbookpro/Documents/Development/MetricsWidget/MetricsWidget/Home/HomeViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "63"
-                  endingLineNumber = "63"
-                  offsetFromSymbolStart = "268">
-               </Location>
-               <Location
-                  uuid = "F3D66667-89C5-4A25-82B8-9D3063988F29 - 5fd6946ce175dc06"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "MetricsWidget.HomeViewModel.updateWidgetData(with: Swift.String) -&gt; ()"
-                  moduleName = "MetricsWidget"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/macbookpro/Documents/Development/MetricsWidget/MetricsWidget/Home/HomeViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "64"
-                  endingLineNumber = "64"
-                  offsetFromSymbolStart = "336">
-               </Location>
-               <Location
-                  uuid = "F3D66667-89C5-4A25-82B8-9D3063988F29 - 5fd6946ce175dc67"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "MetricsWidget.HomeViewModel.updateWidgetData(with: Swift.String) -&gt; ()"
-                  moduleName = "MetricsWidget"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/macbookpro/Documents/Development/MetricsWidget/MetricsWidget/Home/HomeViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "65"
-                  endingLineNumber = "65"
-                  offsetFromSymbolStart = "784">
-               </Location>
-               <Location
-                  uuid = "F3D66667-89C5-4A25-82B8-9D3063988F29 - 5fd6946ce175dc67"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "MetricsWidget.HomeViewModel.updateWidgetData(with: Swift.String) -&gt; ()"
-                  moduleName = "MetricsWidget"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/macbookpro/Documents/Development/MetricsWidget/MetricsWidget/Home/HomeViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "65"
-                  endingLineNumber = "65"
-                  offsetFromSymbolStart = "268">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -513,135 +357,10 @@
             filePath = "MetricsWidget/Home/HomeViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "63"
-            endingLineNumber = "63"
+            startingLineNumber = "98"
+            endingLineNumber = "98"
             landmarkName = "updateWidgetData(with:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "A7C85FE0-4280-4C82-BA16-9B1498BD513D - 5fd6946ce175dfe3"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "MetricsWidget.HomeViewModel.updateWidgetData(with: Swift.String) -&gt; ()"
-                  moduleName = "MetricsWidget"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/macbookpro/Documents/Development/MetricsWidget/MetricsWidget/Home/HomeViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "61"
-                  endingLineNumber = "61"
-                  offsetFromSymbolStart = "260">
-               </Location>
-               <Location
-                  uuid = "A7C85FE0-4280-4C82-BA16-9B1498BD513D - 5fd6946ce175dc06"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "MetricsWidget.HomeViewModel.updateWidgetData(with: Swift.String) -&gt; ()"
-                  moduleName = "MetricsWidget"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/macbookpro/Documents/Development/MetricsWidget/MetricsWidget/Home/HomeViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "64"
-                  endingLineNumber = "64"
-                  offsetFromSymbolStart = "336">
-               </Location>
-               <Location
-                  uuid = "A7C85FE0-4280-4C82-BA16-9B1498BD513D - 5fd6946ce175dc67"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "MetricsWidget.HomeViewModel.updateWidgetData(with: Swift.String) -&gt; ()"
-                  moduleName = "MetricsWidget"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/macbookpro/Documents/Development/MetricsWidget/MetricsWidget/Home/HomeViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "65"
-                  endingLineNumber = "65"
-                  offsetFromSymbolStart = "784">
-               </Location>
-               <Location
-                  uuid = "A7C85FE0-4280-4C82-BA16-9B1498BD513D - 5fd6946ce175dc25"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "MetricsWidget.HomeViewModel.updateWidgetData(with: Swift.String) -&gt; ()"
-                  moduleName = "MetricsWidget"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/macbookpro/Documents/Development/MetricsWidget/MetricsWidget/Home/HomeViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "63"
-                  endingLineNumber = "63"
-                  offsetFromSymbolStart = "260">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "006A4303-D3BD-4559-AC6A-A3D2526FB70A"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "EthMetrics/EthMetrics.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "31"
-            endingLineNumber = "31"
-            landmarkName = "timeline(for:in:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "006A4303-D3BD-4559-AC6A-A3D2526FB70A - 4a7e70fef10a8e2d"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(1) suspend resume partial function for EthMetricsExtension.Provider.timeline(for: EthMetricsExtension.ConfigurationAppIntent, in: WidgetKit.TimelineProviderContext) async -&gt; WidgetKit.Timeline&lt;EthMetricsExtension.SimpleEntry&gt;"
-                  moduleName = "EthMetricsExtension"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/macbookpro/Documents/Development/MetricsWidget/EthMetrics/EthMetrics.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "30"
-                  endingLineNumber = "30"
-                  offsetFromSymbolStart = "616">
-               </Location>
-               <Location
-                  uuid = "006A4303-D3BD-4559-AC6A-A3D2526FB70A - 4a7e70fef10a8e2d"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(1) suspend resume partial function for EthMetricsExtension.Provider.timeline(for: EthMetricsExtension.ConfigurationAppIntent, in: WidgetKit.TimelineProviderContext) async -&gt; WidgetKit.Timeline&lt;EthMetricsExtension.SimpleEntry&gt;"
-                  moduleName = "EthMetricsExtension"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/macbookpro/Documents/Development/MetricsWidget/EthMetrics/EthMetrics.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "30"
-                  endingLineNumber = "30"
-                  offsetFromSymbolStart = "552">
-               </Location>
-               <Location
-                  uuid = "006A4303-D3BD-4559-AC6A-A3D2526FB70A - 4a7e70fef10a8eef"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(1) suspend resume partial function for EthMetricsExtension.Provider.timeline(for: EthMetricsExtension.ConfigurationAppIntent, in: WidgetKit.TimelineProviderContext) async -&gt; WidgetKit.Timeline&lt;EthMetricsExtension.SimpleEntry&gt;"
-                  moduleName = "EthMetricsExtension"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/macbookpro/Documents/Development/MetricsWidget/EthMetrics/EthMetrics.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "32"
-                  endingLineNumber = "32"
-                  offsetFromSymbolStart = "992">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -654,57 +373,10 @@
             filePath = "EthMetrics/EthMetrics.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "33"
-            endingLineNumber = "33"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
             landmarkName = "timeline(for:in:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "E0A60E44-665A-463E-AAD2-BF445140370F - 4a7e70fef10a8e88"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(1) suspend resume partial function for EthMetricsExtension.Provider.timeline(for: EthMetricsExtension.ConfigurationAppIntent, in: WidgetKit.TimelineProviderContext) async -&gt; WidgetKit.Timeline&lt;EthMetricsExtension.SimpleEntry&gt;"
-                  moduleName = "EthMetricsExtension"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/macbookpro/Documents/Development/MetricsWidget/EthMetrics/EthMetrics.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "33"
-                  endingLineNumber = "33"
-                  offsetFromSymbolStart = "964">
-               </Location>
-               <Location
-                  uuid = "E0A60E44-665A-463E-AAD2-BF445140370F - 4a7e70fef10a8e88"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(1) suspend resume partial function for EthMetricsExtension.Provider.timeline(for: EthMetricsExtension.ConfigurationAppIntent, in: WidgetKit.TimelineProviderContext) async -&gt; WidgetKit.Timeline&lt;EthMetricsExtension.SimpleEntry&gt;"
-                  moduleName = "EthMetricsExtension"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/macbookpro/Documents/Development/MetricsWidget/EthMetrics/EthMetrics.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "33"
-                  endingLineNumber = "33"
-                  offsetFromSymbolStart = "864">
-               </Location>
-               <Location
-                  uuid = "E0A60E44-665A-463E-AAD2-BF445140370F - 4a7e70fef10a8f4a"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(1) suspend resume partial function for EthMetricsExtension.Provider.timeline(for: EthMetricsExtension.ConfigurationAppIntent, in: WidgetKit.TimelineProviderContext) async -&gt; WidgetKit.Timeline&lt;EthMetricsExtension.SimpleEntry&gt;"
-                  moduleName = "EthMetricsExtension"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/macbookpro/Documents/Development/MetricsWidget/EthMetrics/EthMetrics.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "35"
-                  endingLineNumber = "35"
-                  offsetFromSymbolStart = "1280">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -717,57 +389,10 @@
             filePath = "EthMetrics/EthMetrics.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "36"
-            endingLineNumber = "36"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
             landmarkName = "timeline(for:in:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "842FA720-4467-4DF2-9756-1D009B2E07F1 - 4a7e70fef10a8f4a"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(1) suspend resume partial function for EthMetricsExtension.Provider.timeline(for: EthMetricsExtension.ConfigurationAppIntent, in: WidgetKit.TimelineProviderContext) async -&gt; WidgetKit.Timeline&lt;EthMetricsExtension.SimpleEntry&gt;"
-                  moduleName = "EthMetricsExtension"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/macbookpro/Documents/Development/MetricsWidget/EthMetrics/EthMetrics.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "35"
-                  endingLineNumber = "35"
-                  offsetFromSymbolStart = "1360">
-               </Location>
-               <Location
-                  uuid = "842FA720-4467-4DF2-9756-1D009B2E07F1 - 4a7e70fef10a8f4a"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(1) suspend resume partial function for EthMetricsExtension.Provider.timeline(for: EthMetricsExtension.ConfigurationAppIntent, in: WidgetKit.TimelineProviderContext) async -&gt; WidgetKit.Timeline&lt;EthMetricsExtension.SimpleEntry&gt;"
-                  moduleName = "EthMetricsExtension"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/macbookpro/Documents/Development/MetricsWidget/EthMetrics/EthMetrics.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "35"
-                  endingLineNumber = "35"
-                  offsetFromSymbolStart = "1252">
-               </Location>
-               <Location
-                  uuid = "842FA720-4467-4DF2-9756-1D009B2E07F1 - 4a7e70fef10a8f04"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "(1) suspend resume partial function for EthMetricsExtension.Provider.timeline(for: EthMetricsExtension.ConfigurationAppIntent, in: WidgetKit.TimelineProviderContext) async -&gt; WidgetKit.Timeline&lt;EthMetricsExtension.SimpleEntry&gt;"
-                  moduleName = "EthMetricsExtension"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/macbookpro/Documents/Development/MetricsWidget/EthMetrics/EthMetrics.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "37"
-                  endingLineNumber = "37"
-                  offsetFromSymbolStart = "1668">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
