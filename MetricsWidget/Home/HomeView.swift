@@ -33,6 +33,7 @@ struct HomeView: View {
                     HStack {
                         Text(key)
                             .padding(.leading, Constants.cardPadding)
+                            .foregroundColor(Color.black)
                         
                         Spacer()
                         
@@ -46,8 +47,7 @@ struct HomeView: View {
                                 .padding(.trailing, Constants.cardPadding)
                                 .frame(width: 150)
                         }
-                    }.onTapGesture {
-                        viewModel.updateWidgetData(with: key)
+                    }.onTapGesture {                        viewModel.updateWidgetData(with: key)
                     }
                     .frame(height: 130)
                     .background(Color(hex: Constants.cardColor, opacity: 1))

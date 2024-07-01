@@ -17,7 +17,7 @@
 		526BFF5E2C14C7A000825BD4 /* EthMetrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526BFF5D2C14C7A000825BD4 /* EthMetrics.swift */; };
 		526BFF602C14C7A000825BD4 /* AppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526BFF5F2C14C7A000825BD4 /* AppIntent.swift */; };
 		526BFF622C14C7A200825BD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 526BFF612C14C7A200825BD4 /* Assets.xcassets */; };
-		526BFF662C14C7A200825BD4 /* EthMetricsExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 526BFF522C14C79F00825BD4 /* EthMetricsExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		526BFF662C14C7A200825BD4 /* EthMetricsExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 526BFF522C14C79F00825BD4 /* EthMetricsExtension.appex */; platformFilter = ios; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		52A3B5E72C320BCF00625407 /* AppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526BFF5F2C14C7A000825BD4 /* AppIntent.swift */; };
 		52B3B4082C165B8A006D6DCB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B3B4072C165B8A006D6DCB /* HomeView.swift */; };
 		52B3B40A2C165B99006D6DCB /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B3B4092C165B99006D6DCB /* HomeViewModel.swift */; };
@@ -30,8 +30,6 @@
 		52E4F7202C1E3F93009787FD /* EthMetricsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E4F71E2C1E3F93009787FD /* EthMetricsModel.swift */; };
 		52E4F7232C1F400C009787FD /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E4F7222C1F400C009787FD /* UIColor+Extensions.swift */; };
 		52E4F7242C1F400C009787FD /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E4F7222C1F400C009787FD /* UIColor+Extensions.swift */; };
-		8BEC6F03AE74B0C10743C427 /* libPods-MetricsWidget.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B4A368681E2A81875560A3E5 /* libPods-MetricsWidget.a */; };
-		EA7EEBB5AC7ED13223096796 /* libPods-EthMetricsExtension.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A38557A46C71E31538750AD8 /* libPods-EthMetricsExtension.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,9 +71,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		1E1C0B64A86B292E867911E2 /* Pods-EthMetricsExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EthMetricsExtension.debug.xcconfig"; path = "Target Support Files/Pods-EthMetricsExtension/Pods-EthMetricsExtension.debug.xcconfig"; sourceTree = "<group>"; };
-		23E4D349A45596B81728C4C1 /* Pods-MetricsWidget.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MetricsWidget.release.xcconfig"; path = "Target Support Files/Pods-MetricsWidget/Pods-MetricsWidget.release.xcconfig"; sourceTree = "<group>"; };
-		26C6F908287002AD3443229E /* Pods-EthMetricsExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EthMetricsExtension.release.xcconfig"; path = "Target Support Files/Pods-EthMetricsExtension/Pods-EthMetricsExtension.release.xcconfig"; sourceTree = "<group>"; };
 		526BFF202C14C6F200825BD4 /* MetricsWidget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetricsWidget.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		526BFF232C14C6F200825BD4 /* MetricsWidgetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricsWidgetApp.swift; sourceTree = "<group>"; };
 		526BFF272C14C6F300825BD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -101,9 +96,6 @@
 		52E4F7152C1E2DF7009787FD /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		52E4F71E2C1E3F93009787FD /* EthMetricsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EthMetricsModel.swift; sourceTree = "<group>"; };
 		52E4F7222C1F400C009787FD /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
-		7CAE07EDEEE9AFF608EC002C /* Pods-MetricsWidget.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MetricsWidget.debug.xcconfig"; path = "Target Support Files/Pods-MetricsWidget/Pods-MetricsWidget.debug.xcconfig"; sourceTree = "<group>"; };
-		A38557A46C71E31538750AD8 /* libPods-EthMetricsExtension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EthMetricsExtension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B4A368681E2A81875560A3E5 /* libPods-MetricsWidget.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MetricsWidget.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,7 +103,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BEC6F03AE74B0C10743C427 /* libPods-MetricsWidget.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,7 +126,6 @@
 			files = (
 				526BFF572C14C7A000825BD4 /* SwiftUI.framework in Frameworks */,
 				526BFF552C14C7A000825BD4 /* WidgetKit.framework in Frameworks */,
-				EA7EEBB5AC7ED13223096796 /* libPods-EthMetricsExtension.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,7 +142,6 @@
 				526BFF582C14C7A000825BD4 /* EthMetrics */,
 				526BFF532C14C7A000825BD4 /* Frameworks */,
 				526BFF212C14C6F200825BD4 /* Products */,
-				B28C8ADB1C83E42E338A0F5E /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -194,8 +183,6 @@
 			children = (
 				526BFF542C14C7A000825BD4 /* WidgetKit.framework */,
 				526BFF562C14C7A000825BD4 /* SwiftUI.framework */,
-				A38557A46C71E31538750AD8 /* libPods-EthMetricsExtension.a */,
-				B4A368681E2A81875560A3E5 /* libPods-MetricsWidget.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -264,17 +251,6 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		B28C8ADB1C83E42E338A0F5E /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				1E1C0B64A86B292E867911E2 /* Pods-EthMetricsExtension.debug.xcconfig */,
-				26C6F908287002AD3443229E /* Pods-EthMetricsExtension.release.xcconfig */,
-				7CAE07EDEEE9AFF608EC002C /* Pods-MetricsWidget.debug.xcconfig */,
-				23E4D349A45596B81728C4C1 /* Pods-MetricsWidget.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -282,7 +258,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 526BFF452C14C6F300825BD4 /* Build configuration list for PBXNativeTarget "MetricsWidget" */;
 			buildPhases = (
-				3ACE86654CDD8D2A472F854A /* [CP] Check Pods Manifest.lock */,
 				526BFF1C2C14C6F200825BD4 /* Sources */,
 				526BFF1D2C14C6F200825BD4 /* Frameworks */,
 				526BFF1E2C14C6F200825BD4 /* Resources */,
@@ -338,7 +313,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 526BFF672C14C7A200825BD4 /* Build configuration list for PBXNativeTarget "EthMetricsExtension" */;
 			buildPhases = (
-				14F60681D9239EB456AD05D2 /* [CP] Check Pods Manifest.lock */,
 				526BFF4E2C14C79F00825BD4 /* Sources */,
 				526BFF4F2C14C79F00825BD4 /* Frameworks */,
 				526BFF502C14C79F00825BD4 /* Resources */,
@@ -433,53 +407,6 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		14F60681D9239EB456AD05D2 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-EthMetricsExtension-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3ACE86654CDD8D2A472F854A /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MetricsWidget-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		526BFF1C2C14C6F200825BD4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -541,6 +468,7 @@
 		};
 		526BFF652C14C7A200825BD4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
+			platformFilter = ios;
 			target = 526BFF512C14C79F00825BD4 /* EthMetricsExtension */;
 			targetProxy = 526BFF642C14C7A200825BD4 /* PBXContainerItemProxy */;
 		};
@@ -663,7 +591,6 @@
 		};
 		526BFF462C14C6F300825BD4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7CAE07EDEEE9AFF608EC002C /* Pods-MetricsWidget.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -704,7 +631,6 @@
 		};
 		526BFF472C14C6F300825BD4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 23E4D349A45596B81728C4C1 /* Pods-MetricsWidget.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -835,7 +761,6 @@
 		};
 		526BFF682C14C7A200825BD4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1E1C0B64A86B292E867911E2 /* Pods-EthMetricsExtension.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
@@ -866,7 +791,6 @@
 		};
 		526BFF692C14C7A200825BD4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 26C6F908287002AD3443229E /* Pods-EthMetricsExtension.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;

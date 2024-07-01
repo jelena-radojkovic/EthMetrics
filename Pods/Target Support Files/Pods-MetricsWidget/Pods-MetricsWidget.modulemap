@@ -1,6 +1,0 @@
-module Pods_MetricsWidget {
-  umbrella header "Pods-MetricsWidget-umbrella.h"
-
-  export *
-  module * { export * }
-}

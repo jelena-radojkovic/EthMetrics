@@ -1,6 +1,0 @@
-module Pods_EthMetricsExtension {
-  umbrella header "Pods-EthMetricsExtension-umbrella.h"
-
-  export *
-  module * { export * }
-}

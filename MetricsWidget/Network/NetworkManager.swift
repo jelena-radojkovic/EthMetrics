@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import Alamofire
+//import Alamofire
 
 class NetworkManager {
     private init() {}
@@ -14,18 +14,18 @@ class NetworkManager {
     
     func fetchMetrics(completion: @escaping (EthMetricsModel) -> Void) {
         // TODO: change the url for AF.request
-        AF.request("http://127.0.0.1:5000/metrics")
-            .responseDecodable { (response: DataResponse<EthMetricsModel, AFError>) in
-                guard response.error != nil else {
-                    print("🥶 Error on fetching metrics: \(String(describing: response.error))")
-                    return
-                }
-                
-                do {
-                    try completion(response.result.get())
-                } catch {
-                    print("🥶 Error on parsing metrics: \(String(describing: error.localizedDescription))")
-                }
-            }
+//        AF.request("http://127.0.0.1:5000/metrics")
+//            .responseDecodable { (response: DataResponse<EthMetricsModel, AFError>) in
+//                guard response.error != nil else {
+//                    print("🥶 Error on fetching metrics: \(String(describing: response.error))")
+//                    return
+//                }
+//                
+//                do {
+//                    try completion(response.result.get())
+//                } catch {
+//                    print("🥶 Error on parsing metrics: \(String(describing: error.localizedDescription))")
+//                }
+//            }
     }
 }
