@@ -8,13 +8,6 @@
 import Foundation
 import WidgetKit
 
-
-struct Point: Identifiable {
-    let id = UUID()
-    let x: Int
-    let y: Int
-}
-
 class HomeViewModel: ObservableObject {
     let appGroupIdentifier = Constants.appGroupId
     @Published var streamingValues: [String: [Point]] = [:]
@@ -28,6 +21,8 @@ class HomeViewModel: ObservableObject {
         static let value = "Value"
         static let gas = "Gas"
         static let maxPriority = "Max priority fee per gas"
+        static let maxFee = "Max Fee Per Gas"
+        static let size = "Size"
         static let baseFee = "Base fee per gas"
     }
     
@@ -46,10 +41,10 @@ class HomeViewModel: ObservableObject {
     func fetchMockData() {
         DispatchQueue.global(qos: .userInteractive).async {
             while true {
-                Thread.sleep(forTimeInterval: 2)
+                Thread.sleep(forTimeInterval: 5)
                 
                 for key in self.streamingValues.keys {
-                    let randomY = Int.random(in: 0..<10)
+                    let randomY = Double.random(in: 0..<10)
                     
                     DispatchQueue.main.async {
                         let x = self.streamingValues[key]!.last?.x ?? 0
@@ -60,13 +55,13 @@ class HomeViewModel: ObservableObject {
         }
     }
     
-    func updateWidgetData(newData: String) {
-        // Save data to UserDefaults in the shared app group
-        if let userDefaults = UserDefaults(suiteName: appGroupIdentifier) {
-            userDefaults.setValue(newData, forKey: Constants.cacheKey)
+    func updateWidgetData(with key: String) {
+        guard let streamingValues = streamingValues[key] else {
+            return
         }
         
-        // Trigger widget update
+        saveCustomDataArray(streamingValues)
+        
         WidgetCenter.shared.reloadAllTimelines()
     }
 }

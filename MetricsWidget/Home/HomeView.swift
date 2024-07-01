@@ -15,21 +15,24 @@ struct HomeView: View {
         static let titleColor = 0x0C1844
         static let cardColor = 0xF9F9E0
         static let backgroundColor = 0x028391
+        static let titleText = "Choose metrics you want to display in widget"
+        static let cardPadding: CGFloat = 20
+        static let scrollPadding: CGFloat = 30
     }
     
     var body: some View {
         ZStack {
-            ScrollView {
-                Text("Choose metrics you want to display in widget")
+            ScrollView(showsIndicators: false) {
+                Text(Constants.titleText)
                     .foregroundColor(Color(hex: Constants.titleColor, opacity: 1))
-                    .padding(.all, 30)
+                    .padding(.all, Constants.scrollPadding)
                     .multilineTextAlignment(.center).fontWeight(.bold)
                 
                 ForEach(Array(viewModel.streamingValues.keys), id: \.self) { key in
                     
                     HStack {
                         Text(key)
-                            .padding(.leading, 20)
+                            .padding(.leading, Constants.cardPadding)
                         
                         Spacer()
                         
@@ -39,17 +42,19 @@ struct HomeView: View {
                                     x: .value("x", $0.x),
                                     y: .value("y", $0.y)
                                 )
-                            }.padding([.top, .bottom], 20)
-                                .padding(.trailing, 20)
+                            }.padding([.top, .bottom], Constants.cardPadding)
+                                .padding(.trailing, Constants.cardPadding)
                                 .frame(width: 150)
                         }
+                    }.onTapGesture {
+                        viewModel.updateWidgetData(with: key)
                     }
                     .frame(height: 130)
                     .background(Color(hex: Constants.cardColor, opacity: 1))
                     .cornerRadius(16)
                     
                 }
-            }.padding(.horizontal, 30)
+            }.padding(.horizontal, Constants.scrollPadding)
         }
         .background(Color(hex: Constants.backgroundColor, opacity: 1))
     }

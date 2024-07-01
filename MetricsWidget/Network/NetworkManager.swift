@@ -14,7 +14,7 @@ class NetworkManager {
     
     func fetchMetrics(completion: @escaping (EthMetricsModel) -> Void) {
         // TODO: change the url for AF.request
-        let request = AF.request("http://127.0.0.1:5000/metrics")
+        AF.request("http://127.0.0.1:5000/metrics")
             .responseDecodable { (response: DataResponse<EthMetricsModel, AFError>) in
                 guard response.error != nil else {
                     print("🥶 Error on fetching metrics: \(String(describing: response.error))")

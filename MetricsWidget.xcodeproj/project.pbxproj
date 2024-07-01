@@ -18,8 +18,13 @@
 		526BFF602C14C7A000825BD4 /* AppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526BFF5F2C14C7A000825BD4 /* AppIntent.swift */; };
 		526BFF622C14C7A200825BD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 526BFF612C14C7A200825BD4 /* Assets.xcassets */; };
 		526BFF662C14C7A200825BD4 /* EthMetricsExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 526BFF522C14C79F00825BD4 /* EthMetricsExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		52A3B5E72C320BCF00625407 /* AppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526BFF5F2C14C7A000825BD4 /* AppIntent.swift */; };
 		52B3B4082C165B8A006D6DCB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B3B4072C165B8A006D6DCB /* HomeView.swift */; };
 		52B3B40A2C165B99006D6DCB /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B3B4092C165B99006D6DCB /* HomeViewModel.swift */; };
+		52B560672C3205D800CA31B6 /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B560662C3205D800CA31B6 /* Point.swift */; };
+		52B560682C3205D800CA31B6 /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B560662C3205D800CA31B6 /* Point.swift */; };
+		52B5606A2C32062900CA31B6 /* UserDefaultsCaching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B560692C32062900CA31B6 /* UserDefaultsCaching.swift */; };
+		52B5606B2C32062900CA31B6 /* UserDefaultsCaching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B560692C32062900CA31B6 /* UserDefaultsCaching.swift */; };
 		52E4F7162C1E2DF7009787FD /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E4F7152C1E2DF7009787FD /* NetworkManager.swift */; };
 		52E4F71F2C1E3F93009787FD /* EthMetricsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E4F71E2C1E3F93009787FD /* EthMetricsModel.swift */; };
 		52E4F7202C1E3F93009787FD /* EthMetricsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E4F71E2C1E3F93009787FD /* EthMetricsModel.swift */; };
@@ -87,8 +92,12 @@
 		526BFF5F2C14C7A000825BD4 /* AppIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntent.swift; sourceTree = "<group>"; };
 		526BFF612C14C7A200825BD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		526BFF632C14C7A200825BD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52A3B5E62C32093D00625407 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		52A3B5E82C32182F00625407 /* EthMetricsExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EthMetricsExtension.entitlements; sourceTree = "<group>"; };
 		52B3B4072C165B8A006D6DCB /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		52B3B4092C165B99006D6DCB /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		52B560662C3205D800CA31B6 /* Point.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Point.swift; sourceTree = "<group>"; };
+		52B560692C32062900CA31B6 /* UserDefaultsCaching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsCaching.swift; sourceTree = "<group>"; };
 		52E4F7152C1E2DF7009787FD /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		52E4F71E2C1E3F93009787FD /* EthMetricsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EthMetricsModel.swift; sourceTree = "<group>"; };
 		52E4F7222C1F400C009787FD /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
@@ -136,6 +145,8 @@
 		526BFF172C14C6F200825BD4 = {
 			isa = PBXGroup;
 			children = (
+				52A3B5E82C32182F00625407 /* EthMetricsExtension.entitlements */,
+				52B560652C3205C900CA31B6 /* Persistance */,
 				526BFF222C14C6F200825BD4 /* MetricsWidget */,
 				52E4F7212C1F3FE9009787FD /* Extensions */,
 				526BFF582C14C7A000825BD4 /* EthMetrics */,
@@ -159,6 +170,7 @@
 		526BFF222C14C6F200825BD4 /* MetricsWidget */ = {
 			isa = PBXGroup;
 			children = (
+				52A3B5E62C32093D00625407 /* Info.plist */,
 				52E4F7142C1E2D59009787FD /* Network */,
 				52B3B4062C165B79006D6DCB /* Home */,
 				526BFF232C14C6F200825BD4 /* MetricsWidgetApp.swift */,
@@ -208,6 +220,15 @@
 				52B3B4092C165B99006D6DCB /* HomeViewModel.swift */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		52B560652C3205C900CA31B6 /* Persistance */ = {
+			isa = PBXGroup;
+			children = (
+				52B560662C3205D800CA31B6 /* Point.swift */,
+				52B560692C32062900CA31B6 /* UserDefaultsCaching.swift */,
+			);
+			path = Persistance;
 			sourceTree = "<group>";
 		};
 		52E4F7142C1E2D59009787FD /* Network */ = {
@@ -464,10 +485,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52B5606A2C32062900CA31B6 /* UserDefaultsCaching.swift in Sources */,
 				52E4F7162C1E2DF7009787FD /* NetworkManager.swift in Sources */,
+				52A3B5E72C320BCF00625407 /* AppIntent.swift in Sources */,
 				52E4F7232C1F400C009787FD /* UIColor+Extensions.swift in Sources */,
 				52E4F71F2C1E3F93009787FD /* EthMetricsModel.swift in Sources */,
 				52B3B4082C165B8A006D6DCB /* HomeView.swift in Sources */,
+				52B560672C3205D800CA31B6 /* Point.swift in Sources */,
 				526BFF242C14C6F200825BD4 /* MetricsWidgetApp.swift in Sources */,
 				52B3B40A2C165B99006D6DCB /* HomeViewModel.swift in Sources */,
 			);
@@ -491,10 +515,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52B5606B2C32062900CA31B6 /* UserDefaultsCaching.swift in Sources */,
 				526BFF5E2C14C7A000825BD4 /* EthMetrics.swift in Sources */,
 				52E4F7242C1F400C009787FD /* UIColor+Extensions.swift in Sources */,
 				52E4F7202C1E3F93009787FD /* EthMetricsModel.swift in Sources */,
 				526BFF602C14C7A000825BD4 /* AppIntent.swift in Sources */,
+				52B560682C3205D800CA31B6 /* Point.swift in Sources */,
 				526BFF5C2C14C7A000825BD4 /* EthMetricsLiveActivity.swift in Sources */,
 				526BFF5A2C14C7A000825BD4 /* EthMetricsBundle.swift in Sources */,
 			);
@@ -650,6 +676,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MetricsWidget/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -690,6 +717,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MetricsWidget/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -811,6 +839,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = EthMetricsExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = FJMSTDRA7A;
@@ -841,6 +870,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = EthMetricsExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = FJMSTDRA7A;
