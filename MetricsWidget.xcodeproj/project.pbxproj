@@ -13,7 +13,6 @@
 		526BFF552C14C7A000825BD4 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 526BFF542C14C7A000825BD4 /* WidgetKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		526BFF572C14C7A000825BD4 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 526BFF562C14C7A000825BD4 /* SwiftUI.framework */; };
 		526BFF5A2C14C7A000825BD4 /* EthMetricsBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526BFF592C14C7A000825BD4 /* EthMetricsBundle.swift */; };
-		526BFF5C2C14C7A000825BD4 /* EthMetricsLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526BFF5B2C14C7A000825BD4 /* EthMetricsLiveActivity.swift */; };
 		526BFF5E2C14C7A000825BD4 /* EthMetrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526BFF5D2C14C7A000825BD4 /* EthMetrics.swift */; };
 		526BFF602C14C7A000825BD4 /* AppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526BFF5F2C14C7A000825BD4 /* AppIntent.swift */; };
 		526BFF622C14C7A200825BD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 526BFF612C14C7A200825BD4 /* Assets.xcassets */; };
@@ -84,7 +83,6 @@
 		526BFF542C14C7A000825BD4 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		526BFF562C14C7A000825BD4 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
 		526BFF592C14C7A000825BD4 /* EthMetricsBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EthMetricsBundle.swift; sourceTree = "<group>"; };
-		526BFF5B2C14C7A000825BD4 /* EthMetricsLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EthMetricsLiveActivity.swift; sourceTree = "<group>"; };
 		526BFF5D2C14C7A000825BD4 /* EthMetrics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EthMetrics.swift; sourceTree = "<group>"; };
 		526BFF5F2C14C7A000825BD4 /* AppIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntent.swift; sourceTree = "<group>"; };
 		526BFF612C14C7A200825BD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -196,7 +194,6 @@
 			isa = PBXGroup;
 			children = (
 				526BFF592C14C7A000825BD4 /* EthMetricsBundle.swift */,
-				526BFF5B2C14C7A000825BD4 /* EthMetricsLiveActivity.swift */,
 				526BFF5D2C14C7A000825BD4 /* EthMetrics.swift */,
 				526BFF5F2C14C7A000825BD4 /* AppIntent.swift */,
 				526BFF612C14C7A200825BD4 /* Assets.xcassets */,
@@ -454,7 +451,6 @@
 				52E4F7202C1E3F93009787FD /* EthMetricsModel.swift in Sources */,
 				526BFF602C14C7A000825BD4 /* AppIntent.swift in Sources */,
 				52B560682C3205D800CA31B6 /* Point.swift in Sources */,
-				526BFF5C2C14C7A000825BD4 /* EthMetricsLiveActivity.swift in Sources */,
 				526BFF5A2C14C7A000825BD4 /* EthMetricsBundle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
