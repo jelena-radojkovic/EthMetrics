@@ -12,6 +12,5 @@ import SwiftUI
 struct EthMetricsBundle: WidgetBundle {
     var body: some Widget {
         EthMetrics()
-        EthMetricsLiveActivity()
     }
 }

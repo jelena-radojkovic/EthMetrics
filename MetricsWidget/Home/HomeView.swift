@@ -31,23 +31,26 @@ struct HomeView: View {
                 ForEach(Array(viewModel.streamingValues.keys), id: \.self) { key in
                     
                     HStack {
-                        Text(key)
-                            .padding(.leading, Constants.cardPadding)
-                            .foregroundColor(Color.black)
-                        
-                        Spacer()
-                        
-                        if let chartData = viewModel.streamingValues[key] {
-                            Chart(chartData) {
-                                LineMark(
-                                    x: .value("x", $0.x),
-                                    y: .value("y", $0.y)
-                                )
-                            }.padding([.top, .bottom], Constants.cardPadding)
-                                .padding(.trailing, Constants.cardPadding)
-                                .frame(width: 150)
+                        Button {
+                            viewModel.updateWidgetData(with: key)
+                        } label: {
+                            Text(key)
+                                .padding(.leading, Constants.cardPadding)
+                                .foregroundColor(Color.black)
+                            
+                            Spacer()
+                            
+                            if let chartData = viewModel.streamingValues[key] {
+                                Chart(chartData) {
+                                    LineMark(
+                                        x: .value("x", $0.x),
+                                        y: .value("y", $0.y)
+                                    )
+                                }.padding([.top, .bottom], Constants.cardPadding)
+                                    .padding(.trailing, Constants.cardPadding)
+                                    .frame(width: 150)
+                            }
                         }
-                    }.onTapGesture {                        viewModel.updateWidgetData(with: key)
                     }
                     .frame(height: 130)
                     .background(Color(hex: Constants.cardColor, opacity: 1))

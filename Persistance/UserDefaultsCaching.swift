@@ -15,6 +15,12 @@ func saveCustomDataArray(_ dataArray: [Point]) {
     }
 }
 
+func saveCustomString(_ data: String) {
+    if let userDefaults = UserDefaults(suiteName: "group.com.ethmetrics") {
+        userDefaults.setValue(data, forKey: "sharedString")
+    }
+}
+
 func loadCustomDataArray() -> [Point]? {
     if let userDefaults = UserDefaults(suiteName: "group.com.ethmetrics"),
        let savedData = userDefaults.data(forKey: "sharedData") {
@@ -23,5 +29,13 @@ func loadCustomDataArray() -> [Point]? {
             return loadedDataArray
         }
     }
+    return nil
+}
+
+func loadCustomString() -> String? {
+    if let userDefaults = UserDefaults(suiteName: "group.com.ethmetrics") {
+        return userDefaults.string(forKey: "sharedString")
+    }
+    
     return nil
 }

@@ -64,11 +64,16 @@ class HomeViewModel: ObservableObject {
             while true {
                 Thread.sleep(forTimeInterval: 5)
                 
-                NetworkManager.shared.fetchMetrics { [weak self] metrics in
+                NetworkManager.shared.fetchMetrics { [weak self] result in
                     guard let self else { return }
                     
-                    DispatchQueue.main.async {
-                        self.updateStreamingValues(with: metrics, x: startingX)
+                    switch result {
+                    case .failure(let error):
+                        fatalError("Error fetching data \(error.localizedDescription)")
+                    case .success(let model):
+                        DispatchQueue.main.async {
+                            self.updateStreamingValues(with: model, x: startingX)
+                        }
                     }
                     
                     startingX += 1
@@ -76,7 +81,6 @@ class HomeViewModel: ObservableObject {
             }
         }
     }
-
 
     private func updateStreamingValues(with model: EthMetricsModel, x: Double) {
         streamingValues[Constants.gasUsed]?.append(Point(x: x, y: Double(model.gasUsed)!))
@@ -96,6 +100,7 @@ class HomeViewModel: ObservableObject {
         }
         
         saveCustomDataArray(streamingValues)
+        saveCustomString(key)
         
         WidgetCenter.shared.reloadAllTimelines()
     }

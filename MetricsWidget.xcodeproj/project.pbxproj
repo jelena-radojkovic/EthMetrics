@@ -10,15 +10,17 @@
 		526BFF242C14C6F200825BD4 /* MetricsWidgetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526BFF232C14C6F200825BD4 /* MetricsWidgetApp.swift */; };
 		526BFF282C14C6F300825BD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 526BFF272C14C6F300825BD4 /* Assets.xcassets */; };
 		526BFF2C2C14C6F300825BD4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 526BFF2B2C14C6F300825BD4 /* Preview Assets.xcassets */; };
-		526BFF552C14C7A000825BD4 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 526BFF542C14C7A000825BD4 /* WidgetKit.framework */; };
+		526BFF552C14C7A000825BD4 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 526BFF542C14C7A000825BD4 /* WidgetKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		526BFF572C14C7A000825BD4 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 526BFF562C14C7A000825BD4 /* SwiftUI.framework */; };
 		526BFF5A2C14C7A000825BD4 /* EthMetricsBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526BFF592C14C7A000825BD4 /* EthMetricsBundle.swift */; };
 		526BFF5C2C14C7A000825BD4 /* EthMetricsLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526BFF5B2C14C7A000825BD4 /* EthMetricsLiveActivity.swift */; };
 		526BFF5E2C14C7A000825BD4 /* EthMetrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526BFF5D2C14C7A000825BD4 /* EthMetrics.swift */; };
 		526BFF602C14C7A000825BD4 /* AppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526BFF5F2C14C7A000825BD4 /* AppIntent.swift */; };
 		526BFF622C14C7A200825BD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 526BFF612C14C7A200825BD4 /* Assets.xcassets */; };
-		526BFF662C14C7A200825BD4 /* EthMetricsExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 526BFF522C14C79F00825BD4 /* EthMetricsExtension.appex */; platformFilter = ios; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		526BFF662C14C7A200825BD4 /* EthMetricsExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 526BFF522C14C79F00825BD4 /* EthMetricsExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		52A167C02C34774300D5DB22 /* ActivityKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52A167BF2C34774300D5DB22 /* ActivityKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		52A3B5E72C320BCF00625407 /* AppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526BFF5F2C14C7A000825BD4 /* AppIntent.swift */; };
+		52A3B5ED2C33110B00625407 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E4F7152C1E2DF7009787FD /* NetworkManager.swift */; };
 		52B3B4082C165B8A006D6DCB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B3B4072C165B8A006D6DCB /* HomeView.swift */; };
 		52B3B40A2C165B99006D6DCB /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B3B4092C165B99006D6DCB /* HomeViewModel.swift */; };
 		52B560672C3205D800CA31B6 /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B560662C3205D800CA31B6 /* Point.swift */; };
@@ -87,6 +89,7 @@
 		526BFF5F2C14C7A000825BD4 /* AppIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntent.swift; sourceTree = "<group>"; };
 		526BFF612C14C7A200825BD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		526BFF632C14C7A200825BD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52A167BF2C34774300D5DB22 /* ActivityKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ActivityKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.0.sdk/System/Library/Frameworks/ActivityKit.framework; sourceTree = DEVELOPER_DIR; };
 		52A3B5E62C32093D00625407 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		52A3B5E82C32182F00625407 /* EthMetricsExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EthMetricsExtension.entitlements; sourceTree = "<group>"; };
 		52B3B4072C165B8A006D6DCB /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -124,6 +127,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52A167C02C34774300D5DB22 /* ActivityKit.framework in Frameworks */,
 				526BFF572C14C7A000825BD4 /* SwiftUI.framework in Frameworks */,
 				526BFF552C14C7A000825BD4 /* WidgetKit.framework in Frameworks */,
 			);
@@ -137,6 +141,7 @@
 			children = (
 				52A3B5E82C32182F00625407 /* EthMetricsExtension.entitlements */,
 				52B560652C3205C900CA31B6 /* Persistance */,
+				52E4F7142C1E2D59009787FD /* Network */,
 				526BFF222C14C6F200825BD4 /* MetricsWidget */,
 				52E4F7212C1F3FE9009787FD /* Extensions */,
 				526BFF582C14C7A000825BD4 /* EthMetrics */,
@@ -160,7 +165,6 @@
 			isa = PBXGroup;
 			children = (
 				52A3B5E62C32093D00625407 /* Info.plist */,
-				52E4F7142C1E2D59009787FD /* Network */,
 				52B3B4062C165B79006D6DCB /* Home */,
 				526BFF232C14C6F200825BD4 /* MetricsWidgetApp.swift */,
 				526BFF272C14C6F300825BD4 /* Assets.xcassets */,
@@ -181,6 +185,7 @@
 		526BFF532C14C7A000825BD4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				52A167BF2C34774300D5DB22 /* ActivityKit.framework */,
 				526BFF542C14C7A000825BD4 /* WidgetKit.framework */,
 				526BFF562C14C7A000825BD4 /* SwiftUI.framework */,
 			);
@@ -444,6 +449,7 @@
 			files = (
 				52B5606B2C32062900CA31B6 /* UserDefaultsCaching.swift in Sources */,
 				526BFF5E2C14C7A000825BD4 /* EthMetrics.swift in Sources */,
+				52A3B5ED2C33110B00625407 /* NetworkManager.swift in Sources */,
 				52E4F7242C1F400C009787FD /* UIColor+Extensions.swift in Sources */,
 				52E4F7202C1E3F93009787FD /* EthMetricsModel.swift in Sources */,
 				526BFF602C14C7A000825BD4 /* AppIntent.swift in Sources */,
@@ -468,7 +474,6 @@
 		};
 		526BFF652C14C7A200825BD4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			platformFilter = ios;
 			target = 526BFF512C14C79F00825BD4 /* EthMetricsExtension */;
 			targetProxy = 526BFF642C14C7A200825BD4 /* PBXContainerItemProxy */;
 		};
@@ -622,7 +627,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ethmetrics.app.com.MetricsWidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -662,7 +669,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ethmetrics.app.com.MetricsWidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -783,6 +792,9 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -813,6 +825,9 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

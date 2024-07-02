@@ -16,23 +16,22 @@ struct Provider: AppIntentTimelineProvider {
     }
     
     func placeholder(in context: Context) -> SimpleEntry {
-        SimpleEntry(date: Date(), configuration: ConfigurationAppIntent(), points: [])
+        SimpleEntry(date: Date(), configuration: ConfigurationAppIntent(), points: [], metrics: "Metrics")
     }
 
     func snapshot(for configuration: ConfigurationAppIntent, in context: Context) async -> SimpleEntry {
-        SimpleEntry(date: Date(), configuration: configuration, points: [])
+        SimpleEntry(date: Date(), configuration: configuration, points: [], metrics: "Metrics")
     }
     
     func timeline(for configuration: ConfigurationAppIntent, in context: Context) async -> Timeline<SimpleEntry> {
         var entries: [SimpleEntry] = []
         let sharedData: [Point] = loadCustomDataArray() ?? []
+        let metrics = loadCustomString() ?? "Metrics"
         
-        // Generate a timeline consisting of five entries an hour apart, starting from the current date.
         let currentDate = Date()
         for hourOffset in 0 ..< 5 {
-            let entryDate = Calendar.current.date(byAdding: .second, value: hourOffset * 2, to: currentDate)!
-//            sharedData.append(Point(x: (sharedData.last?.x ?? 0) + 1, y: Int.random(in: 0..<10)))
-            let entry = SimpleEntry(date: entryDate, configuration: configuration, points: sharedData)
+            let entryDate = Calendar.current.date(byAdding: .hour, value: hourOffset, to: currentDate)!
+            let entry = SimpleEntry(date: entryDate, configuration: configuration, points: sharedData, metrics: metrics)
             entries.append(entry)
         }
 
@@ -45,6 +44,7 @@ struct SimpleEntry: TimelineEntry {
     let configuration: ConfigurationAppIntent
     
     let points: [Point]
+    let metrics: String
 }
 
 struct EthMetricsEntryView : View {
@@ -52,8 +52,10 @@ struct EthMetricsEntryView : View {
 
     var body: some View {
         VStack {
-            Text("Gas Used")
+            Text(entry.metrics)
                 .padding(.top, -10)
+                .foregroundColor(.black)
+            
             Spacer()
             
             Chart(entry.points) {
@@ -96,5 +98,5 @@ extension ConfigurationAppIntent {
 #Preview(as: .systemSmall) {
     EthMetrics()
 } timeline: {
-    SimpleEntry(date: .now, configuration: .smiley, points: [])
+    SimpleEntry(date: .now, configuration: .smiley, points: [], metrics: "Metrics")
 }
