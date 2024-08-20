@@ -37,6 +37,6 @@ struct LandingView: View {
                 }
             }
             .padding()
-        }
+        }.navigationViewStyle(StackNavigationViewStyle())
     }
 }
