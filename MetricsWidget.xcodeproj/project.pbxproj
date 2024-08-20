@@ -19,13 +19,19 @@
 		526BFF662C14C7A200825BD4 /* EthMetricsExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 526BFF522C14C79F00825BD4 /* EthMetricsExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		52A167C02C34774300D5DB22 /* ActivityKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52A167BF2C34774300D5DB22 /* ActivityKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		52A3B5E72C320BCF00625407 /* AppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526BFF5F2C14C7A000825BD4 /* AppIntent.swift */; };
-		52A3B5ED2C33110B00625407 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E4F7152C1E2DF7009787FD /* NetworkManager.swift */; };
 		52B3B4082C165B8A006D6DCB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B3B4072C165B8A006D6DCB /* HomeView.swift */; };
 		52B3B40A2C165B99006D6DCB /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B3B4092C165B99006D6DCB /* HomeViewModel.swift */; };
 		52B560672C3205D800CA31B6 /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B560662C3205D800CA31B6 /* Point.swift */; };
 		52B560682C3205D800CA31B6 /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B560662C3205D800CA31B6 /* Point.swift */; };
 		52B5606A2C32062900CA31B6 /* UserDefaultsCaching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B560692C32062900CA31B6 /* UserDefaultsCaching.swift */; };
 		52B5606B2C32062900CA31B6 /* UserDefaultsCaching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B560692C32062900CA31B6 /* UserDefaultsCaching.swift */; };
+		52DDAF302C727100002B0C34 /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DDAF2F2C727100002B0C34 /* LandingView.swift */; };
+		52DDAF342C72729D002B0C34 /* AddUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DDAF332C72729D002B0C34 /* AddUserView.swift */; };
+		52DDAF372C727A90002B0C34 /* UserRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DDAF362C727A90002B0C34 /* UserRequest.swift */; };
+		52DDAF392C727B18002B0C34 /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DDAF382C727B18002B0C34 /* LoginResponse.swift */; };
+		52DDAF3B2C727E83002B0C34 /* AddUserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DDAF3A2C727E83002B0C34 /* AddUserViewModel.swift */; };
+		52DDAF3D2C728136002B0C34 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DDAF3C2C728135002B0C34 /* LoginView.swift */; };
+		52DDAF3F2C74AF6A002B0C34 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DDAF3E2C74AF6A002B0C34 /* LoginViewModel.swift */; };
 		52E4F7162C1E2DF7009787FD /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E4F7152C1E2DF7009787FD /* NetworkManager.swift */; };
 		52E4F71F2C1E3F93009787FD /* EthMetricsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E4F71E2C1E3F93009787FD /* EthMetricsModel.swift */; };
 		52E4F7202C1E3F93009787FD /* EthMetricsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E4F71E2C1E3F93009787FD /* EthMetricsModel.swift */; };
@@ -94,6 +100,13 @@
 		52B3B4092C165B99006D6DCB /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		52B560662C3205D800CA31B6 /* Point.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Point.swift; sourceTree = "<group>"; };
 		52B560692C32062900CA31B6 /* UserDefaultsCaching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsCaching.swift; sourceTree = "<group>"; };
+		52DDAF2F2C727100002B0C34 /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
+		52DDAF332C72729D002B0C34 /* AddUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddUserView.swift; sourceTree = "<group>"; };
+		52DDAF362C727A90002B0C34 /* UserRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRequest.swift; sourceTree = "<group>"; };
+		52DDAF382C727B18002B0C34 /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
+		52DDAF3A2C727E83002B0C34 /* AddUserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddUserViewModel.swift; sourceTree = "<group>"; };
+		52DDAF3C2C728135002B0C34 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		52DDAF3E2C74AF6A002B0C34 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		52E4F7152C1E2DF7009787FD /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		52E4F71E2C1E3F93009787FD /* EthMetricsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EthMetricsModel.swift; sourceTree = "<group>"; };
 		52E4F7222C1F400C009787FD /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
@@ -162,8 +175,11 @@
 		526BFF222C14C6F200825BD4 /* MetricsWidget */ = {
 			isa = PBXGroup;
 			children = (
-				52A3B5E62C32093D00625407 /* Info.plist */,
+				52DDAF2C2C72708E002B0C34 /* Landing */,
+				52DDAF2B2C727000002B0C34 /* AddUser */,
+				52DDAF2D2C7270D9002B0C34 /* Login */,
 				52B3B4062C165B79006D6DCB /* Home */,
+				52A3B5E62C32093D00625407 /* Info.plist */,
 				526BFF232C14C6F200825BD4 /* MetricsWidgetApp.swift */,
 				526BFF272C14C6F300825BD4 /* Assets.xcassets */,
 				526BFF292C14C6F300825BD4 /* MetricsWidget.entitlements */,
@@ -220,6 +236,40 @@
 			path = Persistance;
 			sourceTree = "<group>";
 		};
+		52DDAF2B2C727000002B0C34 /* AddUser */ = {
+			isa = PBXGroup;
+			children = (
+				52DDAF332C72729D002B0C34 /* AddUserView.swift */,
+				52DDAF3A2C727E83002B0C34 /* AddUserViewModel.swift */,
+			);
+			path = AddUser;
+			sourceTree = "<group>";
+		};
+		52DDAF2C2C72708E002B0C34 /* Landing */ = {
+			isa = PBXGroup;
+			children = (
+				52DDAF2F2C727100002B0C34 /* LandingView.swift */,
+			);
+			path = Landing;
+			sourceTree = "<group>";
+		};
+		52DDAF2D2C7270D9002B0C34 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				52DDAF3C2C728135002B0C34 /* LoginView.swift */,
+				52DDAF3E2C74AF6A002B0C34 /* LoginViewModel.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		52DDAF352C727A84002B0C34 /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				52DDAF362C727A90002B0C34 /* UserRequest.swift */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
 		52E4F7142C1E2D59009787FD /* Network */ = {
 			isa = PBXGroup;
 			children = (
@@ -232,6 +282,7 @@
 		52E4F7172C1E2E04009787FD /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				52DDAF352C727A84002B0C34 /* Requests */,
 				52E4F7192C1E2E1B009787FD /* Responses */,
 			);
 			path = Models;
@@ -241,6 +292,7 @@
 			isa = PBXGroup;
 			children = (
 				52E4F71E2C1E3F93009787FD /* EthMetricsModel.swift */,
+				52DDAF382C727B18002B0C34 /* LoginResponse.swift */,
 			);
 			path = Responses;
 			sourceTree = "<group>";
@@ -415,14 +467,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				52B5606A2C32062900CA31B6 /* UserDefaultsCaching.swift in Sources */,
+				52DDAF3B2C727E83002B0C34 /* AddUserViewModel.swift in Sources */,
 				52E4F7162C1E2DF7009787FD /* NetworkManager.swift in Sources */,
+				52DDAF3D2C728136002B0C34 /* LoginView.swift in Sources */,
+				52DDAF3F2C74AF6A002B0C34 /* LoginViewModel.swift in Sources */,
 				52A3B5E72C320BCF00625407 /* AppIntent.swift in Sources */,
 				52E4F7232C1F400C009787FD /* UIColor+Extensions.swift in Sources */,
 				52E4F71F2C1E3F93009787FD /* EthMetricsModel.swift in Sources */,
 				52B3B4082C165B8A006D6DCB /* HomeView.swift in Sources */,
+				52DDAF392C727B18002B0C34 /* LoginResponse.swift in Sources */,
+				52DDAF302C727100002B0C34 /* LandingView.swift in Sources */,
 				52B560672C3205D800CA31B6 /* Point.swift in Sources */,
+				52DDAF372C727A90002B0C34 /* UserRequest.swift in Sources */,
 				526BFF242C14C6F200825BD4 /* MetricsWidgetApp.swift in Sources */,
 				52B3B40A2C165B99006D6DCB /* HomeViewModel.swift in Sources */,
+				52DDAF342C72729D002B0C34 /* AddUserView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,7 +505,6 @@
 			files = (
 				52B5606B2C32062900CA31B6 /* UserDefaultsCaching.swift in Sources */,
 				526BFF5E2C14C7A000825BD4 /* EthMetrics.swift in Sources */,
-				52A3B5ED2C33110B00625407 /* NetworkManager.swift in Sources */,
 				52E4F7242C1F400C009787FD /* UIColor+Extensions.swift in Sources */,
 				52E4F7202C1E3F93009787FD /* EthMetricsModel.swift in Sources */,
 				526BFF602C14C7A000825BD4 /* AppIntent.swift in Sources */,
@@ -620,7 +678,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ethmetrics.app.com.MetricsWidget;
+				PRODUCT_BUNDLE_IDENTIFIER = ethmetrics.app.com.MetricsWidge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -662,7 +720,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ethmetrics.app.com.MetricsWidget;
+				PRODUCT_BUNDLE_IDENTIFIER = ethmetrics.app.com.MetricsWidge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -770,6 +828,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
 				CODE_SIGN_ENTITLEMENTS = EthMetricsExtension.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = FJMSTDRA7A;
@@ -777,6 +836,7 @@
 				INFOPLIST_FILE = EthMetrics/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = EthMetrics;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -784,8 +844,9 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ethmetrics.app.com.MetricsWidget.EthMetrics;
+				PRODUCT_BUNDLE_IDENTIFIER = ethmetrics.app.com.MetricsWidge.EthMetrics;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -803,6 +864,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
 				CODE_SIGN_ENTITLEMENTS = EthMetricsExtension.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = FJMSTDRA7A;
@@ -810,6 +872,7 @@
 				INFOPLIST_FILE = EthMetrics/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = EthMetrics;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -817,8 +880,9 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ethmetrics.app.com.MetricsWidget.EthMetrics;
+				PRODUCT_BUNDLE_IDENTIFIER = ethmetrics.app.com.MetricsWidge.EthMetrics;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";

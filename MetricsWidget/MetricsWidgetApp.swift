@@ -11,7 +11,7 @@ import SwiftUI
 struct MetricsWidgetApp: App {
     var body: some Scene {
         WindowGroup {
-            HomeView()
+            LandingView()
         }
     }
 }

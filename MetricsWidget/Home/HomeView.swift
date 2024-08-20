@@ -59,10 +59,7 @@ struct HomeView: View {
                 }
             }.padding(.horizontal, Constants.scrollPadding)
         }
+        .navigationBarBackButtonHidden(true)
         .background(Color(hex: Constants.backgroundColor, opacity: 1))
     }
-}
-
-#Preview {
-    HomeView()
 }
